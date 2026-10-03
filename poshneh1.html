@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>حسین پوشنه | خون جاری خوزستان</title>
+    <title>حسین پوشنه | ۱۹ ساله | خون جاری خوزستان</title>
 
     <meta name="description"
-          content="یادبود حسین پوشنه، جوان ۱۹ ساله اهل باغملک خوزستان، از جاویدنامان اعتراضات دی‌ماه ۱۴۰۴.">
+          content="یاد و نام حسین پوشنه، جوان ۱۹ ساله اهل باغملک خوزستان که در ۱۹ دی ۱۴۰۴ در خیابان نادری اهواز جان باخت. خون جاری خوزستان برای ثبت یاد و نام جان‌باختگان.">
+
+    <meta name="keywords"
+          content="حسین پوشنه, حسین پوشنه باغملک, حسین پوشنه اهواز, ۱۹ دی ۱۴۰۴, جان‌باختگان خوزستان, خون جاری خوزستان">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical"
+          href="https://armin388shahram-wq.github.io/poshneh1.html">
 
     <style>
 
@@ -16,473 +24,539 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             margin: 0;
             padding: 0;
             background: #0b0b0b;
-            color: #ffffff;
+            color: #eeeeee;
             font-family: Tahoma, Arial, sans-serif;
+            line-height: 1.9;
         }
 
         .container {
-            width: 100%;
-            max-width: 760px;
-            margin: 0 auto;
-            padding: 20px 15px 40px;
+            width: 94%;
+            max-width: 850px;
+            margin: 35px auto 50px;
         }
 
-        .memorial-card {
-            background: #151515;
-            border-radius: 18px;
-            overflow: hidden;
-            box-shadow: 0 10px 35px rgba(0,0,0,.55);
-        }
-
-        /* =========================
-           تصویر 4:5 - اندازه کوچک‌تر
-           ========================= */
-
-        .photo-box {
-            width: 100%;
-            padding: 25px 20px 10px;
-            display: flex;
-            justify-content: center;
-            background: #151515;
-        }
-
-        .photo-box img {
-            width: 62%;
-            max-width: 390px;
-            aspect-ratio: 4 / 5;
-            object-fit: cover;
-            display: block;
-            border-radius: 10px;
-            box-shadow: 0 6px 25px rgba(0,0,0,.5);
-        }
-
-        .content {
-            padding: 20px 30px 30px;
-        }
-
-        .name {
-            margin: 0;
+        h1 {
             text-align: center;
             font-size: 32px;
+            color: #ffffff;
+            margin: 0 0 25px;
             font-weight: bold;
         }
 
-        .subtitle {
-            text-align: center;
-            margin-top: 8px;
-            color: #999;
-            font-size: 15px;
+        /* ---------------- PHOTO ---------------- */
+
+        .photo-box {
+            position: relative;
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            background: #111111;
+            border: 1px solid #252525;
+            border-radius: 14px;
+            padding: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 25px rgba(0,0,0,0.55);
         }
 
-        .divider {
-            width: 60px;
-            height: 3px;
-            background: #8b0000;
-            margin: 20px auto 25px;
-        }
-
-        /* =========================
-           مشخصات
-           ========================= */
-
-        .info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            margin-bottom: 25px;
-        }
-
-        .info-item {
-            background: #202020;
-            border-radius: 9px;
-            padding: 13px;
-        }
-
-        .label {
+        .photo-box img.main-photo {
             display: block;
-            color: #888;
-            font-size: 12px;
-            margin-bottom: 6px;
+            width: 100%;
+            height: auto;
+            border-radius: 9px;
         }
 
-        .value {
-            color: #fff;
-            font-size: 15px;
-            font-weight: bold;
+        /* ---------------- PROJECT LOGO ---------------- */
+
+        .project-logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 110px;
+            height: auto;
+            max-height: 110px;
+            object-fit: contain;
+            z-index: 5;
         }
 
-        /* =========================
-           متن
-           ========================= */
-
-        .story {
-            color: #ddd;
-            font-size: 16px;
-            line-height: 2.1;
-            text-align: justify;
-            margin-bottom: 25px;
-        }
-
-        .memorial-text {
-            border-right: 3px solid #8b0000;
-            padding: 4px 14px 4px 0;
-            color: #ccc;
-            font-size: 15px;
-            line-height: 2;
-            margin-bottom: 25px;
-        }
-
-        /* =========================
-           تایمر
-           ========================= */
+        /* ---------------- TIMER ---------------- */
 
         .timer-title {
             text-align: center;
-            color: #aaa;
-            font-size: 15px;
-            margin-bottom: 12px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: #dddddd;
+            font-size: 20px;
+            font-weight: bold;
         }
 
         .timer {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            gap: 7px;
-            margin-bottom: 28px;
+            direction: ltr;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 10px;
+            width: 100%;
+            margin: 0 auto 30px;
         }
 
         .time-box {
-            background: #202020;
-            border-radius: 8px;
-            padding: 10px 4px;
+            flex: 1;
+            max-width: 150px;
+            min-width: 80px;
+            background: #151515;
+            border: 1px solid #333333;
+            border-radius: 10px;
+            padding: 12px 5px 10px;
             text-align: center;
-            border-bottom: 2px solid #8b0000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.35);
         }
 
         .time-number {
+            direction: rtl;
             display: block;
-            font-size: 21px;
-            font-weight: bold;
             color: #ffffff;
-            direction: ltr;
+            font-size: 31px;
+            line-height: 1.2;
+            font-weight: bold;
         }
 
         .time-label {
             display: block;
-            color: #888;
-            font-size: 10px;
             margin-top: 5px;
+            color: #aaaaaa;
+            font-size: 14px;
         }
 
-        /* =========================
-           لینک اینستاگرام
-           ========================= */
+        /* ---------------- INFO ---------------- */
 
-        .instagram-button {
-            display: block;
-            width: 100%;
+        .info {
+            background: #111111;
+            border-radius: 12px;
+            padding: 22px 24px;
+            margin-top: 15px;
+            border: 1px solid #222222;
+        }
+
+        .info p {
+            margin: 7px 0;
+            font-size: 17px;
+        }
+
+        .info strong {
+            color: #ffffff;
+        }
+
+        /* ---------------- STORY ---------------- */
+
+        .story {
+            position: relative;
+            margin-top: 25px;
+            padding: 20px 22px 20px 25px;
+            background: #101010;
+            border-radius: 10px;
+            border: 1px solid #222222;
+        }
+
+        .story::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 14px;
+            bottom: 14px;
+            width: 4px;
+            background: #9d1717;
+            border-radius: 4px;
+        }
+
+        .story h2 {
+            margin-top: 0;
+            color: #ffffff;
+            font-size: 22px;
+        }
+
+        .story p {
+            font-size: 17px;
+            color: #dddddd;
+            margin-bottom: 12px;
+        }
+
+        /* ---------------- INSTAGRAM ---------------- */
+
+        .instagram-section {
             text-align: center;
+            margin-top: 35px;
+        }
+
+        .instagram-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 10px 22px 10px 16px;
+            background: #151515;
+            border: 1px solid #333333;
+            border-radius: 12px;
+            color: #ffffff;
             text-decoration: none;
-            background: #8b0000;
-            color: #fff;
-            padding: 13px;
-            border-radius: 8px;
-            font-size: 15px;
-            font-weight: bold;
-            transition: .2s;
+            transition: 0.25s ease;
         }
 
-        .instagram-button:hover {
-            background: #b00000;
+        .instagram-link:hover {
+            background: #202020;
+            transform: translateY(-2px);
         }
 
-        .footer {
+        .instagram-link img {
+            width: 58px;
+            height: 58px;
+            object-fit: contain;
+        }
+
+        .instagram-text {
+            text-align: right;
+        }
+
+        .instagram-text strong {
+            display: block;
+            font-size: 17px;
+            color: #ffffff;
+        }
+
+        .instagram-text span {
+            display: block;
+            font-size: 14px;
+            color: #aaaaaa;
+            direction: ltr;
+        }
+
+        /* ---------------- FOOTER ---------------- */
+
+        footer {
             text-align: center;
-            color: #666;
-            font-size: 12px;
-            margin-top: 22px;
+            margin-top: 45px;
+            padding-top: 20px;
+            border-top: 1px solid #222222;
+            color: #888888;
+            font-size: 15px;
         }
 
-        /* =========================
-           موبایل
-           ========================= */
+        /* ---------------- MOBILE ---------------- */
 
         @media (max-width: 600px) {
 
             .container {
-                padding: 10px 8px 30px;
+                width: 94%;
+                margin-top: 22px;
+            }
+
+            h1 {
+                font-size: 26px;
+                margin-bottom: 18px;
             }
 
             .photo-box {
-                padding: 18px 15px 5px;
+                padding: 7px;
+                border-radius: 11px;
             }
 
-            .photo-box img {
-                width: 58%;
-                max-width: 270px;
+            .project-logo {
+                top: 13px;
+                left: 13px;
+                width: 90px;
+                max-height: 90px;
             }
 
-            .content {
-                padding: 18px 15px 25px;
-            }
-
-            .name {
-                font-size: 27px;
-            }
-
-            .info-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-
-            .story {
-                font-size: 14px;
-                line-height: 2;
+            .timer-title {
+                font-size: 17px;
+                margin-top: 20px;
             }
 
             .timer {
-                gap: 4px;
+                gap: 5px;
+            }
+
+            .time-box {
+                min-width: 0;
+                padding: 9px 3px 8px;
+                border-radius: 8px;
             }
 
             .time-number {
-                font-size: 16px;
+                font-size: 23px;
             }
 
             .time-label {
-                font-size: 9px;
+                font-size: 12px;
+            }
+
+            .info {
+                padding: 17px;
+            }
+
+            .info p {
+                font-size: 15px;
+            }
+
+            .story {
+                padding: 17px 18px 17px 20px;
+            }
+
+            .story h2 {
+                font-size: 19px;
+            }
+
+            .story p {
+                font-size: 15px;
+                line-height: 2;
+            }
+
+            .instagram-link {
+                width: 100%;
+                padding: 8px 12px;
+            }
+
+            .instagram-link img {
+                width: 52px;
+                height: 52px;
             }
         }
 
     </style>
 </head>
 
-
 <body>
 
 <div class="container">
 
-    <div class="memorial-card">
+    <h1>حسین پوشنه</h1>
 
-        <!-- =========================
-             تصویر حسین پوشنه
-             نام فایل: poshneh1.jpg
-             نسبت تصویر: 4:5
-             ========================= -->
+    <!-- تصویر حسین پوشنه -->
+    <div class="photo-box">
 
-        <div class="photo-box">
-            <img src="poshneh1.jpg.jpg"
-                 alt="حسین پوشنه">
+        <img
+            class="main-photo"
+            src="poshneh1.jpg.jpg"
+            alt="حسین پوشنه، ۱۹ ساله اهل باغملک خوزستان"
+        >
+
+        <!-- لوگوی پروژه -->
+        <img
+            class="project-logo"
+            src="logo-khoon-jari-khuzestan.png"
+            alt="خون جاری خوزستان"
+        >
+
+    </div>
+
+
+    <!-- تایمر -->
+    <div class="timer-title">
+        ساعات، دقایق و ثانیه‌هایی که از نبودن حسین پوشنه گذشت
+    </div>
+
+    <div class="timer">
+
+        <div class="time-box">
+            <span id="days" class="time-number">۰</span>
+            <span class="time-label">روز</span>
         </div>
 
+        <div class="time-box">
+            <span id="hours" class="time-number">۰</span>
+            <span class="time-label">ساعت</span>
+        </div>
 
-        <div class="content">
+        <div class="time-box">
+            <span id="minutes" class="time-number">۰</span>
+            <span class="time-label">دقیقه</span>
+        </div>
 
-            <h1 class="name">
-                حسین پوشنه
-            </h1>
-
-            <div class="subtitle">
-                جاویدنام اعتراضات دی‌ماه ۱۴۰۴
-            </div>
-
-            <div class="divider"></div>
-
-
-            <!-- مشخصات -->
-
-            <div class="info-grid">
-
-                <div class="info-item">
-                    <span class="label">نام</span>
-                    <span class="value">حسین پوشنه</span>
-                </div>
-
-                <div class="info-item">
-                    <span class="label">سن</span>
-                    <span class="value">۱۹ سال</span>
-                </div>
-
-                <div class="info-item">
-                    <span class="label">زادگاه</span>
-                    <span class="value">باغملک، خوزستان</span>
-                </div>
-
-                <div class="info-item">
-                    <span class="label">محل جان‌باختن</span>
-                    <span class="value">خیابان نادری، اهواز</span>
-                </div>
-
-                <div class="info-item">
-                    <span class="label">تاریخ</span>
-                    <span class="value">۱۹ دی ۱۴۰۴</span>
-                </div>
-
-                <div class="info-item">
-                    <span class="label">ساعت</span>
-                    <span class="value">۲۲:۰۰</span>
-                </div>
-
-            </div>
-
-
-            <!-- متن زندگی و یادبود -->
-
-            <div class="story">
-
-                حسین پوشنه، جوان ۱۹ ساله اهل شهرستان باغملک
-                استان خوزستان، روز ۱۹ دی‌ماه ۱۴۰۴
-                (۹ ژانویه ۲۰۲۶) در جریان اعتراضات مردمی اهواز
-                در خیابان نادری این شهر با شلیک مستقیم نیروهای
-                حکومتی جان باخت.
-
-                مراسم چهلم حسین پوشنه در باغملک برگزار شد
-                که با بازداشت‌های گسترده شهروندان همراه بود.
-
-            </div>
-
-
-            <div class="memorial-text">
-
-                نام حسین پوشنه به عنوان یکی از جاویدنامان
-                اعتراضات دی‌ماه ۱۴۰۴ ثبت شده است.
-
-            </div>
-
-
-            <!-- =========================
-                 شمارنده زنده
-                 ========================= -->
-
-            <div class="timer-title">
-                زمان گذشته از نبودن حسین
-            </div>
-
-            <div class="timer">
-
-                <div class="time-box">
-                    <span class="time-number" id="years">0</span>
-                    <span class="time-label">سال</span>
-                </div>
-
-                <div class="time-box">
-                    <span class="time-number" id="months">0</span>
-                    <span class="time-label">ماه</span>
-                </div>
-
-                <div class="time-box">
-                    <span class="time-number" id="days">0</span>
-                    <span class="time-label">روز</span>
-                </div>
-
-                <div class="time-box">
-                    <span class="time-number" id="hours">0</span>
-                    <span class="time-label">ساعت</span>
-                </div>
-
-                <div class="time-box">
-                    <span class="time-number" id="minutes">0</span>
-                    <span class="time-label">دقیقه</span>
-                </div>
-
-                <div class="time-box">
-                    <span class="time-number" id="seconds">0</span>
-                    <span class="time-label">ثانیه</span>
-                </div>
-
-            </div>
-
-
-            <!-- لینک پیج خون جاری خوزستان -->
-
-            <a class="instagram-button"
-               href="https://www.instagram.com/khoon.khuzestan/"
-               target="_blank"
-               rel="noopener noreferrer">
-
-                رجوع به پیج خون جاری خوزستان
-
-            </a>
-
+        <div class="time-box">
+            <span id="seconds" class="time-number">۰</span>
+            <span class="time-label">ثانیه</span>
         </div>
 
     </div>
 
 
-    <div class="footer">
-        یاد و نام حسین پوشنه گرامی باد
+    <!-- مشخصات -->
+    <div class="info">
+
+        <p>
+            <strong>نام:</strong>
+            حسین پوشنه
+        </p>
+
+        <p>
+            <strong>سن:</strong>
+            ۱۹ سال
+        </p>
+
+        <p>
+            <strong>زادگاه:</strong>
+            شهرستان باغملک، استان خوزستان
+        </p>
+
+        <p>
+            <strong>محل جان‌باختن:</strong>
+            خیابان نادری، اهواز
+        </p>
+
+        <p>
+            <strong>تاریخ:</strong>
+            ۱۹ دی‌ماه ۱۴۰۴
+            (۹ ژانویه ۲۰۲۶)
+        </p>
+
     </div>
+
+
+    <!-- روایت -->
+    <div class="story">
+
+        <h2>روایت حسین پوشنه</h2>
+
+        <p>
+            حسین پوشنه، جوان ۱۹ ساله اهل شهرستان باغملک در استان خوزستان،
+            در جریان اعتراضات مردمی روز ۱۹ دی‌ماه ۱۴۰۴ در اهواز،
+            در خیابان نادری این شهر با شلیک مستقیم نیروهای حکومتی
+            جان باخت.
+        </p>
+
+        <p>
+            مراسم چهلم حسین پوشنه در باغملک برگزار شد که با
+            بازداشت‌های گسترده شهروندان همراه بود.
+        </p>
+
+        <p>
+            نام حسین پوشنه به عنوان یکی از جاویدنامان اعتراضات
+            دی‌ماه ۱۴۰۴ ثبت شده است.
+        </p>
+
+    </div>
+
+
+    <!-- لینک اینستاگرام -->
+    <div class="instagram-section">
+
+        <a
+            class="instagram-link"
+            href="https://www.instagram.com/khoon.khuzestan/?hl=en#"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+
+            <img
+                src="instagram.png"
+                alt="Instagram"
+            >
+
+            <div class="instagram-text">
+
+                <strong>خون جاری خوزستان</strong>
+
+                <span>@khoon.khuzestan</span>
+
+            </div>
+
+        </a>
+
+    </div>
+
+
+    <footer>
+        یاد و نام حسین پوشنه ماندگار
+        <br>
+        خون جاری خوزستان
+    </footer>
 
 </div>
 
 
-<!-- =========================
-     JAVASCRIPT
-     تایمر زنده
-     تاریخ: 9 January 2026
-     ساعت: 22:00 ایران
-     ========================= -->
+<!-- ================= TIMER SCRIPT ================= -->
 
 <script>
 
     /*
-       زمان جان‌باختن:
-       9 ژانویه 2026
-       ساعت 22:00
-       منطقه زمانی ایران UTC+3:30
+       تاریخ مبنا:
+       19 دی 1404
+       برابر با 9 ژانویه 2026
+
+       ساعت مبنا: 00:00:00
     */
 
-    const deathDate = new Date("2026-01-09T22:00:00+03:30");
+    const deathDate = new Date("2026-01-09T00:00:00");
+
+    function toPersianNumber(number) {
+
+        return number
+            .toString()
+            .replace(/\d/g, function(digit) {
+                return "۰۱۲۳۴۵۶۷۸۹"[digit];
+            });
+
+    }
 
 
     function updateTimer() {
 
         const now = new Date();
 
-        let totalSeconds =
-            Math.floor((now.getTime() - deathDate.getTime()) / 1000);
+        let difference = now - deathDate;
 
-
-        if (totalSeconds < 0) {
-            totalSeconds = 0;
+        if (difference < 0) {
+            difference = 0;
         }
 
+        const totalSeconds =
+            Math.floor(difference / 1000);
 
-        /*
-           محاسبه سال، ماه و روز به صورت تقویمی
-        */
+        const days =
+            Math.floor(totalSeconds / 86400);
 
-        let cursor = new Date(deathDate);
+        const hours =
+            Math.floor(
+                (totalSeconds % 86400) / 3600
+            );
 
-        let years = 0;
-        let months = 0;
+        const minutes =
+            Math.floor(
+                (totalSeconds % 3600) / 60
+            );
 
-
-        while (true) {
-
-            let next = new Date(cursor);
-
-            next.setFullYear(next.getFullYear() + 1);
-
-            if (next <= now) {
-                years++;
-                cursor = next;
-            } else {
-                break;
-            }
-        }
+        const seconds =
+            totalSeconds % 60;
 
 
-        while (true) {
+        document.getElementById("days").textContent =
+            toPersianNumber(days);
 
-            let next = new Date(cursor);
+        document.getElementById("hours").textContent =
+            toPersianNumber(hours);
 
-            next.setMonth(next.getMonth() + 1);
+        document.getElementById("minutes").textContent =
+            toPersianNumber(minutes);
 
-            if (next <= now) {
-                months++;
-                cursor = next;
-            } else {
-                break;
+        document.getElementById("seconds").textContent =
+            toPersianNumber(seconds);
+
+    }
+
+
+    updateTimer();
+
+    setInterval(updateTimer, 1000);
+
+</script>
+
+</body>
+</html>
 ```
