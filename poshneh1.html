@@ -1,0 +1,289 @@
+```html
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>حسین پوشنه | خون جاری خوزستان</title>
+
+    <meta name="description"
+          content="یادبود حسین پوشنه، جوان ۱۹ ساله اهل باغملک خوزستان، از جاویدنامان اعتراضات دی‌ماه ۱۴۰۴.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0d0d0d;
+            color: #ffffff;
+            font-family: Tahoma, Arial, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .memorial-card {
+            background: #171717;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
+        }
+
+        /* تصویر با نسبت 4:5 */
+        .photo-box {
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            background: #000000;
+            overflow: hidden;
+        }
+
+        .photo-box img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .name {
+            margin: 0;
+            font-size: 34px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .subtitle {
+            margin-top: 10px;
+            text-align: center;
+            color: #a5a5a5;
+            font-size: 16px;
+        }
+
+        .divider {
+            width: 70px;
+            height: 3px;
+            background: #8b0000;
+            margin: 22px auto 28px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+
+        .info-item {
+            background: #222222;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .label {
+            display: block;
+            color: #888888;
+            font-size: 13px;
+            margin-bottom: 7px;
+        }
+
+        .value {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .story {
+            color: #dddddd;
+            font-size: 16px;
+            line-height: 2.15;
+            text-align: justify;
+            margin-bottom: 25px;
+        }
+
+        .memorial-text {
+            border-right: 3px solid #8b0000;
+            padding: 5px 15px 5px 0;
+            color: #cccccc;
+            font-size: 16px;
+            line-height: 2;
+            margin-bottom: 30px;
+        }
+
+        .instagram-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            background: #8b0000;
+            color: #ffffff;
+            padding: 14px;
+            border-radius: 9px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .instagram-button:hover {
+            background: #b00000;
+        }
+
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 13px;
+            margin-top: 25px;
+            padding-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+
+            .container {
+                padding: 10px;
+            }
+
+            .content {
+                padding: 22px 18px;
+            }
+
+            .name {
+                font-size: 27px;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .story,
+            .memorial-text {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <div class="memorial-card">
+
+        <!-- تصویر حسین پوشنه -->
+        <!-- نام فایل باید دقیقاً poshneh1.jpg باشد -->
+        <div class="photo-box">
+            <img src="poshneh1.jpg"
+                 alt="حسین پوشنه، ۱۹ ساله، اهل باغملک خوزستان">
+        </div>
+
+
+        <div class="content">
+
+            <h1 class="name">
+                حسین پوشنه
+            </h1>
+
+            <div class="subtitle">
+                جاویدنام اعتراضات دی‌ماه ۱۴۰۴
+            </div>
+
+            <div class="divider"></div>
+
+
+            <div class="info-grid">
+
+                <div class="info-item">
+                    <span class="label">نام</span>
+                    <span class="value">حسین پوشنه</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="label">سن</span>
+                    <span class="value">۱۹ سال</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="label">زادگاه</span>
+                    <span class="value">باغملک، خوزستان</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="label">محل جان‌باختن</span>
+                    <span class="value">خیابان نادری، اهواز</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="label">تاریخ</span>
+                    <span class="value">۱۹ دی ۱۴۰۴</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="label">ساعت</span>
+                    <span class="value">۲۲:۰۰</span>
+                </div>
+
+            </div>
+
+
+            <div class="story">
+
+                حسین پوشنه، جوان ۱۹ ساله اهل شهرستان باغملک
+                استان خوزستان، روز ۱۹ دی‌ماه ۱۴۰۴
+                (۹ ژانویه ۲۰۲۶) در جریان اعتراضات مردمی اهواز
+                در خیابان نادری این شهر جان باخت.
+
+                بر اساس اطلاعات ثبت‌شده، او با شلیک مستقیم
+                نیروهای حکومتی هدف قرار گرفت.
+
+                مراسم چهلم حسین پوشنه در باغملک برگزار شد
+                که با بازداشت گسترده شهروندان همراه بود.
+
+            </div>
+
+
+            <div class="memorial-text">
+
+                نام حسین پوشنه به عنوان یکی از جاویدنامان
+                اعتراضات دی‌ماه ۱۴۰۴ ثبت شده است.
+
+            </div>
+
+
+            <!-- لینک پیج خون جاری خوزستان -->
+
+            <a class="instagram-button"
+               href="https://www.instagram.com/khoon.khuzestan/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                رجوع به پیج خون جاری خوزستان
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+
+        یاد و نام حسین پوشنه گرامی باد
+
+    </div>
+
+</div>
+
+</body>
+</html>
+```
